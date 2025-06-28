@@ -124,7 +124,8 @@ public class EnsureConnectedness {
      * @return A collection of hex coordinates that are exactly the specified number of steps away
      * where the dragging rules and connectivity are never broken
      * given the current state of the game board.
-     * The algorithm used for this method, in combination with the explorePaths method,
+     * The algorithm used for this method, in combination with the 
+     * explorePathsWhereConnectivityIsMaintainedAtEachStep method, 
      * is a variation of Depth First Search, which can be found at:
      * {@link <a href="https://www.baeldung.com/java-depth-first-search">...</a>}
      */
